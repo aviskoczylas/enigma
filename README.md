@@ -5,7 +5,7 @@ This repo contains a solver for any given keyword, piece shapes, starter pieces,
 
 It also contains a file to modify the piece shapes, and a large selection of sample puzzles and solutions using a few different letter grids, though all the same piece shapes. The puzzles are labeled by how many starter pieces they have. Since there is only one solution, generally ones with less starter piece are harder. Finally, most of the puzzles and solutions are also in pdf form for easy printing.
 
-If you are interested in making a puzzle board for your own use, 3d models to print the puzzle board and pieces can be found at ...
+If you are interested in making a puzzle board for your own use, 3d models to print the puzzle board and pieces can be found at (placeholder)
 
 The repo is definitely not complete, and I plan to polish it and add more puzzles over the coming months!
 
