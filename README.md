@@ -1,4 +1,4 @@
-# enigma
+# Enigma
 Enigma is a puzzle where you have to fit all of the pieces within a rectangular grid, with the twist that the grid is made of letters, and the holes in the pieces reveal the letters of a word. 
 
 This repo contains a solver for any given keyword, piece shapes, starter pieces, and letter grid. It plots the solutions in a very clear manner, so you can easily see where to put the pieces. Alternatively, if you just want to see whether a certain word is possible, you can see how many solutions there are without displaying any of them. 
