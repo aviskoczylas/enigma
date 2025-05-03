@@ -21,12 +21,17 @@ with open('C:/Users/abrah/OneDrive/Desktop/code/miscellaneous python/iq game cod
 #specify whether you want to see all possible solutions or just one
 allSols = True
 #See the solutions, or just find out how many there are? (only relevant if allSols = True)
-displaySols = False
+displaySols = True
 
 #specify starting piece number (shape), row, and column
 starting_pieces = [
     
-    #[(flip_and_rotate(pieces[1])[6],0,0)],
+    [(flip_and_rotate(pieces[2])[1],0,7)],
+    [(flip_and_rotate(pieces[3])[1],0,5)],
+    [(flip_and_rotate(pieces[8])[1],0,0)],
+    [(flip_and_rotate(pieces[10])[0],0,3)],
+    [(flip_and_rotate(pieces[9])[2],2,8)],
+
 ]
 '''
 piece 0 = pink, piece 1 = red
@@ -41,13 +46,15 @@ piece 10 = brown
 board_rows = 5
 board_cols = 10
 
-keyword = 'monk'
+keyword = 'repel'
 
-lettergrid = [['a', ' ', 'b', ' ', 'c', ' ', 'd', ' ', 'e', ' ',],
-              [' ', 'f',' ', 'g', ' ', 'h', ' ', 'i', ' ', 'j'],
-              ['k', ' ', 'l', ' ', 'm', ' ', 'n', ' ', 'o', ' '],
-              [' ', 'p', ' ', 'r', ' ', 's', ' ', 't', ' ', 'u'],
-              ['v', ' ', 'w', ' ', 'x', ' ', 'y', ' ', 'z', ' ']]
+lettergrid = [
+    [' ', 'i', ' ', ' ', 'a', ' ', ' ', 'b', ' ', 'o'],
+    ['s', ' ', 'q', 'o', ' ', 'm', 'e', ' ', 'h', ' '],
+    ['g', ' ', 't', ' ', 'u', ' ', 'l', ' ', 'n', 'i'],
+    [' ', 'a', 'n', ' ', ' ', 'p', 'c', 'r', ' ', 'e'],
+    ['l', ' ', ' ', 'e', 'd', ' ', 't', 's', ' ', ' ']
+]
 
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
@@ -106,7 +113,7 @@ def grid_coverage(placements_list, vars_list):
                         coverage[(placement_row+piece_row,placement_col+piece_col)].append(vars_list[piece_num][placement_num])
     return coverage
     
-#Function takes in a keyword and returns a list of tuples describing how many times each letter appears in the keyword
+#Function takes in a keyword and returns a dict of tuples describing how many times each letter appears in the keyword
 def letter_frequency(keyword):
     freq = {}
     word_letters = list(keyword.lower())
@@ -168,8 +175,13 @@ def plot_grid(solution_grid):
 
 
         
+#first, ensure the grid makes sense for the keyword
+keyword_freq = letter_frequency(keyword)
+grid_freq = letter_frequency(''.join([l for row in lettergrid for l in row if l != ' ']))
+for letter in keyword_freq:
+    if keyword_freq[letter] > grid_freq[letter]:
+        raise ValueError("letters in grid can't satisfy keyword!")
         
-
 #plot starting piece configuration
 starting_grid = np.zeros((board_rows, board_cols))
 for [(starting_piece,row,col)] in starting_pieces:
