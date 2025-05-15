@@ -11,4 +11,4 @@ The repo is definitely not complete, and I plan to polish it and add more puzzle
 
 This project was inspired by the Smartgames IQ series (which you should definitely check out if you liked this!). However, it is an independent creation and is not affiliated with the IQ brand or Smartgames in any way.
 
-Feel free to make copies of or modify any part of this project for personal, non-commercial use. For any commercial use, please request permission first.
+Feel free to make copies of or modify any part of this project for personal, non-commercial use. For any commercial use, please request my permission.
