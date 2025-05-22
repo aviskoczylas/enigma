@@ -95,5 +95,5 @@ There are 3 pieces that can maintain the same shape on the board while changing 
     :width: 30%
 
 .. |z2| image:: images/zag.png
-    :width: 30%
+    :width: 29%
 
