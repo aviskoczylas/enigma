@@ -88,6 +88,7 @@ Flippable pieces
 ----------------
 
 There are 3 pieces that can maintain the same shape on the board while changing what holes they cover. On board A specifically, only the zigzag piece can do this, as shown below. Can you figure out what the others are, and why they won't work on board A? This property can be a very powerful tool, so make sure to take full advantage of this flexibility!
+
 |z1| |z2|
 
 .. |z1| image:: images/zig.png
