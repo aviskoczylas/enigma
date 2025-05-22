@@ -15,7 +15,7 @@ As you start each puzzle, I highly recommend locating each letter of the keyword
 
 For this puzzle, we immediately notice that 'j' and 'u' are next to each other on the far left of the board. After trying all of the pieces, we can quickly find that there are only 8 possible configurations that could possibly reveal both 'j' and 'u' while revealing no other letters, shown below.
 
-|c1||c2||c3||c4||c5||c6||c7||c8|
+|c1| |c2| |c3| |c4| |c5| |c6| |c7| |c8|
 
 
 .. |c1| image:: images/c1.png
