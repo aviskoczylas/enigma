@@ -25,8 +25,8 @@ displaySols = True
 
 #specify starting piece number (shape), row, and column
 starting_pieces = [
-    #[(flip_and_rotate(pieces[3])[1],0,0)],
-    #[(flip_and_rotate(pieces[10])[1],3,6)],
+    [(flip_and_rotate(pieces[5])[4],1,0)],
+    [(flip_and_rotate(pieces[0])[1],0,0)],
     #[(flip_and_rotate(pieces[6])[3],1,6)],
     #[(flip_and_rotate(pieces[8])[1],0,0)],
     #[(flip_and_rotate(pieces[7])[0],0,5)]
@@ -44,14 +44,20 @@ piece 10 = brown
 board_rows = 5
 board_cols = 10
  #"challenge", "humanity", "analyst", "missile", "technology", "silly", 
-keyword = 'intelligent'
+keyword = ''
 
 lettergrid = [
-    [' ', 'i', ' ', ' ', 'a', ' ', 'y', 'b', ' ', 'o'],
-    ['s', ' ', 'c', 'o', ' ', 'm', 'e', ' ', 'h', ' '],
-    ['g', ' ', 't', ' ', 'u', ' ', 'l', ' ', 'n', 'i'],
-    [' ', 'a', 'n', ' ', ' ', 'p', ' ', 'r', ' ', 'e'],
-    ['l', ' ', ' ', 'e', 'd', ' ', 't', 's', ' ', ' ']
+    ['a', ' ', 'b', ' ', 'c', ' ', 'd', ' ', 'e', ' '],
+    [' ', 'f', ' ', 'g', ' ', 'h', ' ', 'i', ' ', 'j'],
+    ['k', ' ', 'l', ' ', 'm', ' ', 'n', ' ', 'o', ' '],
+    [' ', 'p', ' ', 'r', ' ', 's', ' ', 't', ' ', 'u'],
+    ['v', ' ', 'w', ' ', 'x', ' ', 'y', ' ', 'z', ' ']
+
+#    [' ', 'i', ' ', ' ', 'a', ' ', 'y', 'b', ' ', 'o'],
+#    ['s', ' ', 'c', 'o', ' ', 'm', 'e', ' ', 'h', ' '],
+#    ['g', ' ', 't', ' ', 'u', ' ', 'l', ' ', 'n', 'i'],
+#    [' ', 'a', 'n', ' ', ' ', 'p', ' ', 'r', ' ', 'e'],
+#    ['l', ' ', ' ', 'e', 'd', ' ', 't', 's', ' ', ' ']
 ]
 
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
