@@ -26,7 +26,6 @@ I like to call this method of elimination symmetry, since it occurs where there 
 
 .. figure:: images/sym.png
     :align: center
-
 .. figure:: images/sym2.png
     :align: center
 
