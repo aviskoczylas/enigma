@@ -24,10 +24,10 @@ While 8 configurations is a lot, half of these can actually be eliinated immedia
 
 I like to call this method of elimination symmetry, since it occurs where there is a line of symmetry along the configuration. Some other examples of elimination via symmetry are shown below. 
 
-|p1| |p2|
+|p1|              |p2|
 
 .. |p1| image:: images/sym.png
-    :width: 45%
+    :width: 30%
 .. |p2| image:: images/sym2.png
     :width: 45%
 
