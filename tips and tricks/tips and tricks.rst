@@ -15,8 +15,25 @@ As you start each puzzle, I highly recommend locating each letter of the keyword
 
 For this puzzle, we immediately notice that 'j' and 'u' are next to each other on the far left of the board. After trying all of the pieces, we can quickly find that there are only 8 possible configurations that could possibly reveal both 'j' and 'u' while revealing no other letters, shown below.
 
-.. figure:: placeholder.png
-    :align: center
+|c1||c2||c3||c4||c5||c6||c7||c8|
+
+
+.. |c1| image:: images/c1.png
+    :width: 45%
+.. |c2| image:: images/c2.png
+    :width: 45%
+.. |c3| image:: images/c3.png
+    :width: 45%
+.. |c4| image:: images/c4.png
+    :width: 45%
+.. |c5| image:: images/c5.png
+    :width: 45%
+.. |c6| image:: images/c6.png
+    :width: 45%
+.. |c7| image:: images/c7.png
+    :width: 45%
+.. |c8| image:: images/c8.png
+    :width: 45%
 
 * Symmetry
 
@@ -33,10 +50,13 @@ I like to call this method of elimination symmetry, since it occurs where there 
 
 Importantly, the piece's holes must be symmetrical as well: just like the shape itself, the revealed letters (or lack thereof) must be mirrored across the line of symmetry or else the configurations are not interchangeable (this is an oversimplification, but it will work). Below is an example of the shape having a lineof symmetry, but we can see that this won't work when mirrored.
 
-.. figure:: images/fake_sym.png
-    :align: center
+|p3||p4|
 
-.. figure:: images/fake_sym_flipped.png
-    :align: center
+.. |p1| image:: images/fake_sym.png
+    :width: 45%
+.. |p2| image:: images/fake_sym_flipped.png
+    :width: 45%
 
 Note that a symmetry elimination cannot be used on a starter piece, since this piece is not interchangeable.
+
+talk here about blank space symmetry
