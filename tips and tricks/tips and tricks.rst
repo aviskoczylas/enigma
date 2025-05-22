@@ -19,21 +19,21 @@ For this puzzle, we immediately notice that 'j' and 'u' are next to each other o
 
 
 .. |c1| image:: images/c1.png
-    :width: 45%
+    :width: 10%
 .. |c2| image:: images/c2.png
-    :width: 45%
+    :width: 10%
 .. |c3| image:: images/c3.png
-    :width: 45%
+    :width: 10%
 .. |c4| image:: images/c4.png
-    :width: 45%
+    :width: 10%
 .. |c5| image:: images/c5.png
-    :width: 45%
+    :width: 10%
 .. |c6| image:: images/c6.png
-    :width: 45%
+    :width: 10%
 .. |c7| image:: images/c7.png
-    :width: 45%
+    :width: 10%
 .. |c8| image:: images/c8.png
-    :width: 45%
+    :width: 10%
 
 * Symmetry
 
