@@ -50,11 +50,11 @@ I like to call this method of elimination symmetry, since it occurs where there 
 
 Importantly, the piece's holes must be symmetrical as well: just like the shape itself, the revealed letters (or lack thereof) must be mirrored across the line of symmetry or else the configurations are not interchangeable (this is an oversimplification, but it will work). Below is an example of the shape having a lineof symmetry, but we can see that this won't work when mirrored.
 
-|p3||p4|
+|p3| |p4|
 
-.. |p1| image:: images/fake_sym.png
+.. |p3| image:: images/fake_sym.png
     :width: 45%
-.. |p2| image:: images/fake_sym_flipped.png
+.. |p4| image:: images/fake_sym_flipped.png
     :width: 45%
 
 Note that a symmetry elimination cannot be used on a starter piece, since this piece is not interchangeable.
