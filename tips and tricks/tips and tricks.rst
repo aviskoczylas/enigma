@@ -19,13 +19,13 @@ For this puzzle, we immediately notice that 'j' and 'u' are next to each other o
 
 
 .. |c1| image:: images/c1.png
-    :width: 10%
+    :width: 12%
 .. |c2| image:: images/c2.png
-    :width: 10%
+    :width: 15%
 .. |c3| image:: images/c3.png
-    :width: 10%
+    :width: 18%
 .. |c4| image:: images/c4.png
-    :width: 10%
+    :width: 18%
 .. |c5| image:: images/c5.png
     :width: 10%
 .. |c6| image:: images/c6.png
