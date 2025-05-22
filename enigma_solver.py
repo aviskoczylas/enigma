@@ -25,13 +25,11 @@ displaySols = True
 
 #specify starting piece number (shape), row, and column
 starting_pieces = [
-    
-    [(flip_and_rotate(pieces[2])[1],0,7)],
-    [(flip_and_rotate(pieces[3])[1],0,5)],
-    [(flip_and_rotate(pieces[8])[1],0,0)],
-    [(flip_and_rotate(pieces[10])[0],0,3)],
-    [(flip_and_rotate(pieces[9])[2],2,8)],
-
+    #[(flip_and_rotate(pieces[3])[1],0,0)],
+    #[(flip_and_rotate(pieces[10])[1],3,6)],
+    #[(flip_and_rotate(pieces[6])[3],1,6)],
+    #[(flip_and_rotate(pieces[8])[1],0,0)],
+    #[(flip_and_rotate(pieces[7])[0],0,5)]
 ]
 '''
 piece 0 = pink, piece 1 = red
@@ -45,14 +43,14 @@ piece 10 = brown
 #define board shape
 board_rows = 5
 board_cols = 10
-
-keyword = 'repel'
+ #"challenge", "humanity", "analyst", "missile", "technology", "silly", 
+keyword = 'intelligent'
 
 lettergrid = [
-    [' ', 'i', ' ', ' ', 'a', ' ', ' ', 'b', ' ', 'o'],
-    ['s', ' ', 'q', 'o', ' ', 'm', 'e', ' ', 'h', ' '],
+    [' ', 'i', ' ', ' ', 'a', ' ', 'y', 'b', ' ', 'o'],
+    ['s', ' ', 'c', 'o', ' ', 'm', 'e', ' ', 'h', ' '],
     ['g', ' ', 't', ' ', 'u', ' ', 'l', ' ', 'n', 'i'],
-    [' ', 'a', 'n', ' ', ' ', 'p', 'c', 'r', ' ', 'e'],
+    [' ', 'a', 'n', ' ', ' ', 'p', ' ', 'r', ' ', 'e'],
     ['l', ' ', ' ', 'e', 'd', ' ', 't', 's', ' ', ' ']
 ]
 
