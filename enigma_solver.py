@@ -25,10 +25,10 @@ displaySols = True
 
 #specify starting piece number (shape), row, and column
 starting_pieces = [
-    [(flip_and_rotate(pieces[10])[7],2,8)],
+    [(flip_and_rotate(pieces[1])[0],2,1)],
     #[(flip_and_rotate(pieces[7])[1],1,8)],
     #[(flip_and_rotate(pieces[6])[2],0,8)],
-    [(flip_and_rotate(pieces[4])[1],1,7)]
+    [(flip_and_rotate(pieces[5])[2],0,0)]
 
 ]
 '''
@@ -44,7 +44,7 @@ piece 10 = brown
 board_rows = 5
 board_cols = 10
  #"challenge", "humanity", "analyst", "missile", "technology", "silly", 
-keyword = ''
+keyword = 'jump'
 
 lettergrid = [
     ['a', ' ', 'b', ' ', 'c', ' ', 'd', ' ', 'e', ' '],
