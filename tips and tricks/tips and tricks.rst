@@ -24,14 +24,14 @@ While 8 configurations is a lot, half of these can actually be eliinated immedia
 
 I like to call this method of elimination symmetry, since it occurs where there is a line of symmetry along the configuration. Some other examples of elimination via symmetry are shown below. 
 
-.. figure:: images/sym.png
-    :align: center
+|p1|       |p2|
 
-.. figure:: images/sym2.png
-    :align: center
+.. |p1| image:: images/sym.png
+    :width: 33%
+.. |p2| image:: images/sym2.png
+    :width: 45%
 
-
-Importantly, the piece's holes must be symmetrical as well: just like the shape itself, the revealed letters (or lack thereof) must be mirrored across the line of symmetry or else the configurations are not interchangeable (in most cases). Below is an example of the shape having a lineof symmetry, but we can see that this won't work when mirrored.
+Importantly, the piece's holes must be symmetrical as well: just like the shape itself, the revealed letters (or lack thereof) must be mirrored across the line of symmetry or else the configurations are not interchangeable (this is an oversimplification, but it will work). Below is an example of the shape having a lineof symmetry, but we can see that this won't work when mirrored.
 
 .. figure:: images/fake_sym.png
     :align: center
