@@ -38,7 +38,7 @@ For this puzzle, we immediately notice that 'j' and 'u' are next to each other o
 .. |c8| image:: images/c8.png
     :width: 10%
 
-
+Looking for constraints based on letters rather than geometry is crucial for puzzles with very few starting pieces.
 
 Symmetry
 --------
@@ -78,7 +78,21 @@ another good thing to do at the begnning of a puzzle, once you have located all 
 
 .. |f1| image:: images/Figure_1.png
     :width: 45%
+
 .. |f2| image:: images/Figure_2.png
     :width: 45%
 
 Let's assume these configurations are shown to not work. **We then know that no piece with 2 holes can reveal a letter.** This extra information can be very useful when trying to figure out what options you have for filling a part of the grid.
+
+Flippable pieces
+----------------
+
+There are 3 pieces that can maintain the same shape on the board while changing what holes they cover. On board A specifically, only the zigzag piece can do this, as shown below. Can you figure out what the others are, and why they won't work on board A? This property can be a very powerful tool, so make sure to take full advantage of this flexibility!
+|z1| |z2|
+
+.. |z1| image:: images/zig.png
+    :width: 45%
+
+.. |z2| image:: images/zag.png
+    :width: 45%
+
