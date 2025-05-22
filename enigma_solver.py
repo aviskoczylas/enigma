@@ -25,11 +25,11 @@ displaySols = True
 
 #specify starting piece number (shape), row, and column
 starting_pieces = [
-    [(flip_and_rotate(pieces[5])[4],1,0)],
-    [(flip_and_rotate(pieces[0])[1],0,0)],
-    #[(flip_and_rotate(pieces[6])[3],1,6)],
-    #[(flip_and_rotate(pieces[8])[1],0,0)],
-    #[(flip_and_rotate(pieces[7])[0],0,5)]
+    [(flip_and_rotate(pieces[10])[7],2,8)],
+    #[(flip_and_rotate(pieces[7])[1],1,8)],
+    #[(flip_and_rotate(pieces[6])[2],0,8)],
+    [(flip_and_rotate(pieces[4])[1],1,7)]
+
 ]
 '''
 piece 0 = pink, piece 1 = red
