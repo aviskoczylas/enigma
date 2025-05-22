@@ -87,7 +87,7 @@ Let's assume these configurations are shown to not work. **We then know that no 
 Flippable pieces
 ----------------
 
-There are 3 pieces that can maintain the same shape on the board while changing what holes they cover. On board A specifically, only the zigzag piece can do this, as shown below. Can you figure out what the others are, and why they won't work on board A? This property can be a very powerful tool, so make sure to take full advantage of this flexibility!
+There are 3 pieces that can maintain the same shape on the board while changing what holes they cover. In some cases they can even "choose" whether or not to cover a letter at all. On board A specifically, only the zigzag piece can do this, as shown below. Can you figure out what the others are, and why they won't work on board A? This property can be a very powerful tool, so make sure to take full advantage of this flexibility!
 
 |z1| |z2|
 
