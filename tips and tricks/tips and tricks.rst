@@ -65,4 +65,11 @@ Importantly, the piece's holes must be symmetrical as well: just like the shape 
 
 Note that a symmetry elimination cannot be used on a starter piece, since this piece is not interchangeable.
 
-talk here about blank space symmetry
+TALK HERE ABOUT BLANK SPACE SYMMETRY
+
+Pieces with two holes
+---------------------
+
+This tip is particularly useful for board A, but if you're smart about it, these principles can be applied to other boards as well. However, I'll only discuss board A here for the sake of simplicity.
+
+another good thing to do at the begnning of a puzzle, once you have located all required letters, is to see it any pieces with two holes can cover multiple letters. **Due to the unique position of the holes on 2-hole pieces, the pieces will only cover 2 or 0 letters, never just 1 on board A.** If 
