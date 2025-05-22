@@ -7,7 +7,9 @@ Throughout this guide, we'll refer to this puzzle as an example, but these tips 
 .. figure:: ../sample\ puzzles/board\ a/1/jump.png
     :align: center
 
-* Concentrations of letters
+
+Concentrations of letters
+-------------------------
 
 If you have experience with similar grid-filling puzzles, you may gravitate toward the bottom left of the grid for this puzzle, since it seems to be the most restricted area and therefore the easiest to work with. However, we will see that it is actually much more helpful to start on the left side of the board. 
 
