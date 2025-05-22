@@ -91,8 +91,8 @@ There are 3 pieces that can maintain the same shape on the board while changing 
 |z1| |z2|
 
 .. |z1| image:: images/zig.png
-    :width: 45%
+    :width: 30%
 
 .. |z2| image:: images/zag.png
-    :width: 45%
+    :width: 30%
 
