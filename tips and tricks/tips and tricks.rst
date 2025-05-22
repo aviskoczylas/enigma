@@ -26,11 +26,10 @@ I like to call this method of elimination symmetry, since it occurs where there 
 
 |p1| |p2|
 
-.. |p1| figure:: images/sym.png
-    :align: center
-.. |p2| figure:: images/sym2.png
-    :align: center
-
+.. |p1| image:: images/sym.png
+    :width: 45%
+.. |p2| image:: images/sym2.png
+    :width: 45%
 
 Importantly, the piece's holes must be symmetrical as well: just like the shape itself, the revealed letters (or lack thereof) must be mirrored across the line of symmetry or else the configurations are not interchangeable (this is an oversimplification, but it will work). Below is an example of the shape having a lineof symmetry, but we can see that this won't work when mirrored.
 
