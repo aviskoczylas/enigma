@@ -72,7 +72,7 @@ Symmetry can also be used to eliminate confiugrations based on the leftover spac
 
 A symmetry argument cannot be made based on the pieces, since the holes are not symmetrical anda starter piece is involved. However, the blank space left on the board is symmetrical horizontally, as are the remaining keyword letters j, u, and m. This means that for ay configuration that could solve the puzzle, that same configuration could be flipped upside dowm and also be a solution. Since the puzzle only has one solution, no such configuration can exist, so the current setup can be eliminated.
 
-These aren't the only ways that you can use the "only one solution" rule to your advantage, so don't be afraid to get creative! Using it is never necessary, but can save you a lot of effort (and make you fel smart)!
+These aren't the only ways that you can use the "only one solution" rule to your advantage, so don't be afraid to get creative! Using it is never necessary, but can save you a lot of effort (and make you feel smart)!
 
 Pieces with two holes
 ---------------------
