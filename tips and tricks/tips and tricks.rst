@@ -45,7 +45,7 @@ Symmetry
 
 While 8 configurations is a lot, half of these can actually be eliinated immediately. The rules mention that each puzzle only has one possible solution. While this may just seem like a fun fact, it can actually be very useful in solving puzzles if you use it cleverly. In the cases above, notice that configurations 5 and 6 have the same shape, use the same pieces, and reveal the same letters. This means that no matter how the rest of the board is set up, these two configurations are interchangeable, so a puzzle with one of these configurations as a solution cannot have only one solution! Since the puzzle only has one solution, these configurations need not be considered. The same logic applies to configurations 7 and 8, leaving us with only 1, 2, 3, and 4. This reveals an important conclusion: the zigzag piece must be in one of the two spots above!
 
-I like to call this method of elimination symmetry, since it occurs where there is a line of symmetry along the configuration. Some other examples of elimination via symmetry are shown below. 
+I like to call this method of elimination symmetry, since it occurs where there is a line of symmetry along the configuration. Some other examples of configurations that can be eliminated via symmetry are shown below. 
 
 |p1|       |p2|
 
