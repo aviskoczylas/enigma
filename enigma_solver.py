@@ -25,10 +25,10 @@ displaySols = False
 
 #specify starting piece number (shape), row, and column
 starting_pieces = [
-    [(flip_and_rotate(pieces[0])[0],1,1)],
-    #[(flip_and_rotate(pieces[7])[1],1,8)],
-    [(flip_and_rotate(pieces[6])[3],2,2)]
-    #[(flip_and_rotate(pieces[5])[2],0,0)]
+    [(flip_and_rotate(pieces[9])[0],3,0)],
+    [(flip_and_rotate(pieces[4])[5],2,1)],
+    [(flip_and_rotate(pieces[6])[1],0,2)],
+    [(flip_and_rotate(pieces[5])[2],0,0)]
 
 ]
 '''
