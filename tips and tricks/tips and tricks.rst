@@ -43,7 +43,7 @@ Looking for constraints based on letters rather than geometry is crucial for puz
 Symmetry
 --------
 
-While 8 configurations is a lot, half of these can actually be eliinated immediately. The rules mention that each puzzle only has one possible solution. While this may just seem like a fun fact, it can actually be very useful in solving puzzles if you use it cleverly. In the cases above, notice that configurations 5 and 6 have the same shape, use the same pieces, and reveal the same letters. This means that no matter how the rest of the board is set up, these two configurations are interchangeable, so a puzzle with one of these configurations as a solution cannot have only one solution! Since the puzzle only has one solution, these configurations need not be considered. The same logic applies to configurations 7 and 8, leaving us with only 1, 2, 3, and 4. This reveals an important conclusion: the zigzag piece must be in one of the two spots above!
+While 8 configurations is a lot, half of these can actually be eliinated immediately. The rules mention that **EACH PUZZLE HAS ONLY ONE POSSIBLE SOLUTION**. While this may just seem like a fun fact, it can actually be very useful in solving puzzles if you use it cleverly. In the cases above, notice that configurations 5 and 6 have the same shape, use the same pieces, and reveal the same letters. This means that no matter how the rest of the board is set up, these two configurations are interchangeable, so a puzzle with one of these configurations as a solution cannot have only one solution! Since the puzzle only has one solution, these configurations need not be considered. The same logic applies to configurations 7 and 8, leaving us with only 1, 2, 3, and 4. This reveals an important conclusion: the zigzag piece must be in one of the two spots above!
 
 I like to call this method of elimination symmetry, since it occurs where there is a line of symmetry along the configuration. Some other examples of configurations that can be eliminated via symmetry are shown below. 
 
@@ -71,6 +71,8 @@ Symmetry can also be used to eliminate confiugrations based on the leftover spac
     :align: center
 
 A symmetry argument cannot be made based on the pieces, since the holes are not symmetrical anda starter piece is involved. However, the blank space left on the board is symmetrical horizontally, as are the remaining keyword letters j, u, and m. This means that for ay configuration that could solve the puzzle, that same configuration could be flipped upside dowm and also be a solution. Since the puzzle only has one solution, no such configuration can exist, so the current setup can be eliminated.
+
+These aren't the only ways that you can use the "only one solution" rule to your advantage, so don't be afraid to get creative!
 
 Pieces with two holes
 ---------------------
