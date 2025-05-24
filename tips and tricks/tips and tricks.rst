@@ -65,7 +65,12 @@ Importantly, the piece's holes must be symmetrical as well: just like the shape 
 
 Note that a symmetry elimination cannot be used on a starter piece, since this piece is not interchangeable.
 
-TALK HERE ABOUT BLANK SPACE SYMMETRY
+Symmetry can also be used to eliminate confiugrations based on the leftover space in the grid as well as the pieces that have been placed. For example, say you started the puzzle like so:
+
+..  figure:: images/blank_sym.png
+    :align: center
+
+A symmetry argument cannot be made based on the pieces, since the holes are not symmetrical anda starter piece is involved. However, the blank space left on the board is symmetrical horizontally, as are the remaining keyword letters j, u, and m. This means that for ay configuration that could solve the puzzle, that same configuration could be flipped upside dowm and also be a solution. Since the puzzle only has one solution, no such configuration can exist, so the current setup can be eliminated.
 
 Pieces with two holes
 ---------------------
