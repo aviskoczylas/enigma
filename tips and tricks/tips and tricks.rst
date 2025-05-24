@@ -79,7 +79,7 @@ Pieces with two holes
 
 This tip is particularly useful for board A, but if you're smart about it, these principles can be applied to other boards as well. However, I'll only discuss board A here for the sake of simplicity.
 
-another good thing to do at the begnning of a puzzle, once you have located all required letters, is to see it any pieces with two holes can cover multiple letters. **Due to the unique position of the holes on 2-hole pieces, the pieces will only cover 2 or 0 letters, never just 1 on board A.** In the case of the 'jump' puzzle, there is one piece that can cover two letters, shown below in both configurations.
+Another good thing to do when starting a puzzle, once you have located all required letters, is to see it any pieces with two holes can cover multiple letters. **Due to the unique position of the holes on 2-hole pieces, the pieces will only cover 2 or 0 letters, never just 1 on board A.** In the case of the 'jump' puzzle, there is one piece that can cover two letters, shown below in both configurations.
 
 |f1| |f2|
 
