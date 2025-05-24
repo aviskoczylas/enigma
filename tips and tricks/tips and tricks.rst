@@ -14,7 +14,7 @@ Concentrations of letters
 
 If you have experience with similar grid-filling puzzles, you may gravitate toward the bottom left of the grid for this puzzle, since it seems to be the most restricted area and therefore the easiest to work with. However, we will see that it is actually much more helpful to start on the left side of the board. 
 
-As you start each puzzle, I highly recommend locating each letter of the keyword and noting which ones are close to each other, as well as which are in convenient areas. For example, if a word contains the letter 'a', if there are no other nearby letters, there are only three pieces that can reveal the 'a'. This can be a vital piece of starting knowledge, especially when one or more of those pieces cannot be used. 
+As you start each puzzle, I highly recommend locating each letter of the keyword and noting which ones are close to each other, as well as which are in convenient areas. For example, if a word contains the letter 'a', if there are no other nearby letters, there are only three pieces that can reveal the 'a'. This can be a vital piece of starting knowledge, especially when one or more of those pieces cannot be used. In general, letters near the edges of the board are the most useful, and often make for the best starting points when other keyword letters are nearby.
 
 For this puzzle, we immediately notice that 'j' and 'u' are next to each other on the far left of the board. After trying all of the pieces, we can quickly find that there are only 8 possible configurations that could possibly reveal both 'j' and 'u' while revealing no other letters, shown below.
 
