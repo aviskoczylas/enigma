@@ -21,13 +21,13 @@ with open('C:/Users/abrah/OneDrive/Desktop/code/miscellaneous python/iq game cod
 #specify whether you want to see all possible solutions or just one
 allSols = True
 #See the solutions, or just find out how many there are? (only relevant if allSols = True)
-displaySols = True
+displaySols = False
 
 #specify starting piece number (shape), row, and column
 starting_pieces = [
-    [(flip_and_rotate(pieces[10])[0],0,0)]
+    [(flip_and_rotate(pieces[0])[0],1,1)],
     #[(flip_and_rotate(pieces[7])[1],1,8)],
-    #[(flip_and_rotate(pieces[6])[2],0,8)],
+    [(flip_and_rotate(pieces[6])[3],2,2)]
     #[(flip_and_rotate(pieces[5])[2],0,0)]
 
 ]
