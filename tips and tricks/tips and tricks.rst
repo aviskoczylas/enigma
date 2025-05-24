@@ -82,7 +82,7 @@ another good thing to do at the begnning of a puzzle, once you have located all 
 .. |f2| image:: images/Figure_2.png
     :width: 45%
 
-Let's assume these configurations are shown to not work. **We then know that no piece with 2 holes can reveal a letter.** This extra information can be very useful when trying to figure out what options you have for filling a part of the grid.
+Let's assume these configurations are shown to not work (hint - they don't). **We then know that no piece with 2 holes can reveal a letter.** This extra information can be very useful when trying to figure out what options you have for filling a part of the grid.
 
 Flippable pieces
 ----------------
