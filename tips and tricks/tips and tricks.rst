@@ -54,7 +54,7 @@ I like to call this method of elimination symmetry, since it occurs where there 
 .. |p2| image:: images/sym2.png
     :width: 45%
 
-Importantly, the piece's holes must be symmetrical as well: just like the shape itself, the revealed letters (or lack thereof) must be mirrored across the line of symmetry or else the configurations are not interchangeable (this is an oversimplification, but it will work). Below is an example of the shape having a lineof symmetry, but we can see that this won't work when mirrored.
+Importantly, the piece's holes must be symmetrical as well: just like the shape itself, the revealed letters (or lack thereof) must be mirrored across the line of symmetry or else the configurations are not interchangeable (this is an oversimplification - the strategy can still work in cases where this is not true, but it will always work when it is true). Below is an example of the shape having a lineof symmetry, but we can see that this won't work when mirrored.
 
 |p3| |p4|
 
