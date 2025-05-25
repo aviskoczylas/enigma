@@ -25,10 +25,12 @@ displaySols = 1
 
 #specify starting piece number (shape), row, and column
 starting_pieces = [
-    [(flip_and_rotate(pieces[7])[2],3,0)],
-    [(flip_and_rotate(pieces[3])[5],3,2)],
-    [(flip_and_rotate(pieces[0])[5],3,5)],
-    [(flip_and_rotate(pieces[9])[4],3,7)],
+    #[(flip_and_rotate(pieces[1])[3],1,0)],
+    #[(flip_and_rotate(pieces[5])[4],3,0)],
+    #[(flip_and_rotate(pieces[6])[0],0,0)],
+    #[(flip_and_rotate(pieces[7])[3],3,8)],
+    #[(flip_and_rotate(pieces[8])[4],2,0)],
+    #[(flip_and_rotate(pieces[10])[2],1,1)],
 ]
 '''
 piece 0 = pink, piece 1 = red
@@ -42,8 +44,8 @@ piece 10 = brown
 #define board shape
 board_rows = 5
 board_cols = 10
- # "humanity", "missile","uninspired" 
-keyword = 'symbolic'
+ # "humanity", "missile","uninspired", "genetic"
+keyword = 'photo'
 
 lettergrid = [
 #    ['a', ' ', 'b', ' ', 'c', ' ', 'd', ' ', 'e', ' '],
@@ -71,7 +73,7 @@ class AllSolutions(cp_model.CpSolverSolutionCallback):
 
     def on_solution_callback(self):
         self.num_sols += 1
-        if displaySols == True: 
+        if displaySols == True:# and self.num_sols > 15: 
             create_sol_grid(self.placements, self.vars, self)
     '''
         self.current_sol = create_sol_grid(self.placements, self.vars, self)
