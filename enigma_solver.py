@@ -21,15 +21,16 @@ with open('C:/Users/abrah/OneDrive/Desktop/code/miscellaneous python/iq game cod
 #specify whether you want to see all possible solutions or just one
 allSols = True
 #See the solutions, or just find out how many there are? (only relevant if allSols = True)
-displaySols = False
+displaySols = 1
 
 #specify starting piece number (shape), row, and column
 starting_pieces = [
-    [(flip_and_rotate(pieces[9])[0],3,0)],
-    [(flip_and_rotate(pieces[4])[5],2,1)],
-    [(flip_and_rotate(pieces[6])[1],0,2)],
-    [(flip_and_rotate(pieces[5])[2],0,0)]
-
+    [(flip_and_rotate(pieces[3])[7],1,0)],
+    [(flip_and_rotate(pieces[6])[3],3,1)],
+    [(flip_and_rotate(pieces[7])[3],3,4)],
+    #[(flip_and_rotate(pieces[8])[5],2,2)],
+    #[(flip_and_rotate(pieces[9])[1],3,2)],
+    [(flip_and_rotate(pieces[10])[1],2,3)],
 ]
 '''
 piece 0 = pink, piece 1 = red
@@ -43,21 +44,21 @@ piece 10 = brown
 #define board shape
 board_rows = 5
 board_cols = 10
- #"challenge", "humanity", "analyst", "missile", "technology", "silly", 
-keyword = 'jump'
+ # "humanity", "missile", 
+keyword = 'metallic'
 
 lettergrid = [
-    ['a', ' ', 'b', ' ', 'c', ' ', 'd', ' ', 'e', ' '],
-    [' ', 'f', ' ', 'g', ' ', 'h', ' ', 'i', ' ', 'j'],
-    ['k', ' ', 'l', ' ', 'm', ' ', 'n', ' ', 'o', ' '],
-    [' ', 'p', ' ', 'r', ' ', 's', ' ', 't', ' ', 'u'],
-    ['v', ' ', 'w', ' ', 'x', ' ', 'y', ' ', 'z', ' ']
+#    ['a', ' ', 'b', ' ', 'c', ' ', 'd', ' ', 'e', ' '],
+#    [' ', 'f', ' ', 'g', ' ', 'h', ' ', 'i', ' ', 'j'],
+#    ['k', ' ', 'l', ' ', 'm', ' ', 'n', ' ', 'o', ' '],
+#    [' ', 'p', ' ', 'r', ' ', 's', ' ', 't', ' ', 'u'],
+#    ['v', ' ', 'w', ' ', 'x', ' ', 'y', ' ', 'z', ' ']
 
-#    [' ', 'i', ' ', ' ', 'a', ' ', 'y', 'b', ' ', 'o'],
-#    ['s', ' ', 'c', 'o', ' ', 'm', 'e', ' ', 'h', ' '],
-#    ['g', ' ', 't', ' ', 'u', ' ', 'l', ' ', 'n', 'i'],
-#    [' ', 'a', 'n', ' ', ' ', 'p', ' ', 'r', ' ', 'e'],
-#    ['l', ' ', ' ', 'e', 'd', ' ', 't', 's', ' ', ' ']
+    [' ', 'i', ' ', ' ', 'a', ' ', 'y', 'b', ' ', 'o'],
+    ['s', ' ', 'c', 'o', ' ', 'm', 'e', ' ', 'h', ' '],
+    ['g', ' ', 't', ' ', 'u', ' ', 'l', ' ', 'n', 'i'],
+    [' ', 'a', 'n', ' ', ' ', 'p', ' ', 'r', ' ', 'e'],
+    ['l', ' ', ' ', 'e', 'd', ' ', 't', 's', ' ', ' ']
 ]
 
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
@@ -72,7 +73,7 @@ class AllSolutions(cp_model.CpSolverSolutionCallback):
 
     def on_solution_callback(self):
         self.num_sols += 1
-        if displaySols == True:
+        if displaySols == True: 
             create_sol_grid(self.placements, self.vars, self)
     '''
         self.current_sol = create_sol_grid(self.placements, self.vars, self)
