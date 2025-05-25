@@ -14,7 +14,7 @@ Concentrations of letters
 
 If you have experience with similar grid-filling puzzles, you may gravitate toward the bottom left of the grid for this puzzle, since it seems to be the most restricted area and therefore the easiest to work with. However, we will see that it is actually much more helpful to start on the left side of the board. 
 
-As you start each puzzle, I highly recommend locating each letter of the keyword and noting which ones are close to each other, as well as which are in convenient areas. For example, if a word contains the letter 'a', if there are no other nearby letters, there are only three pieces that can reveal the 'a'. This can be a vital piece of starting knowledge, especially when one or more of those pieces cannot be used. 
+As you start each puzzle, I highly recommend locating each letter of the keyword and noting which ones are close to each other, as well as which are in convenient areas. For example, if a word contains the letter 'a', if there are no other nearby letters, there are only three pieces that can reveal the 'a'. This can be a vital piece of starting knowledge, especially when one or more of those pieces cannot be used. In general, letters near the edges of the board are the most useful, and often make for the best starting points when other keyword letters are nearby.
 
 For this puzzle, we immediately notice that 'j' and 'u' are next to each other on the far left of the board. After trying all of the pieces, we can quickly find that there are only 8 possible configurations that could possibly reveal both 'j' and 'u' while revealing no other letters, shown below.
 
@@ -43,7 +43,7 @@ Looking for constraints based on letters rather than geometry is crucial for puz
 Symmetry
 --------
 
-While 8 configurations is a lot, half of these can actually be eliinated immediately. The rules mention that each puzzle only has one possible solution. While this may just seem like a fun fact, it can actually be very useful in solving puzzles if you use it cleverly. In the cases above, notice that configurations 5 and 6 have the same shape, use the same pieces, and reveal the same letters. This means that no matter how the rest of the board is set up, these two configurations are interchangeable, so a puzzle with one of these configurations as a solution cannot have only one solution! Since the puzzle only has one solution, these configurations need not be considered. The same logic applies to configurations 7 and 8, leaving us with only 1, 2, 3, and 4. This reveals an important conclusion: the zigzag piece must be in one of the two spots above!
+While 8 configurations is a lot, half of these can actually be eliinated immediately. The rules mention that **EACH PUZZLE HAS ONLY ONE POSSIBLE SOLUTION**. While this may just seem like a fun fact, it can actually be very useful in solving puzzles if you use it cleverly. In the cases above, notice that configurations 5 and 6 have the same shape, use the same pieces, and reveal the same letters. This means that no matter how the rest of the board is set up, these two configurations are interchangeable, so a puzzle with one of these configurations as a solution cannot have only one solution! Since the puzzle only has one solution, these configurations need not be considered. The same logic applies to configurations 7 and 8, leaving us with only 1, 2, 3, and 4. This reveals an important conclusion: the zigzag piece must be in one of the two spots above!
 
 I like to call this method of elimination symmetry, since it occurs where there is a line of symmetry along the configuration. Some other examples of configurations that can be eliminated via symmetry are shown below. 
 
@@ -72,12 +72,14 @@ Symmetry can also be used to eliminate confiugrations based on the leftover spac
 
 A symmetry argument cannot be made based on the pieces, since the holes are not symmetrical anda starter piece is involved. However, the blank space left on the board is symmetrical horizontally, as are the remaining keyword letters j, u, and m. This means that for ay configuration that could solve the puzzle, that same configuration could be flipped upside dowm and also be a solution. Since the puzzle only has one solution, no such configuration can exist, so the current setup can be eliminated.
 
+These aren't the only ways that you can use the "only one solution" rule to your advantage, so don't be afraid to get creative! Using it is never necessary, but can save you a lot of effort (and make you feel smart)!
+
 Pieces with two holes
 ---------------------
 
 This tip is particularly useful for board A, but if you're smart about it, these principles can be applied to other boards as well. However, I'll only discuss board A here for the sake of simplicity.
 
-another good thing to do at the begnning of a puzzle, once you have located all required letters, is to see it any pieces with two holes can cover multiple letters. **Due to the unique position of the holes on 2-hole pieces, the pieces will only cover 2 or 0 letters, never just 1 on board A.** In the case of the 'jump' puzzle, there is one piece that can cover two letters, shown below in both configurations.
+Another good thing to do when starting a puzzle, once you have located all required letters, is to see it any pieces with two holes can cover multiple letters. **Due to the unique position of the holes on 2-hole pieces, the pieces will only cover 2 or 0 letters, never just 1 on board A.** In the case of the 'jump' puzzle, there is one piece that can cover two letters, shown below in both configurations.
 
 |f1| |f2|
 
