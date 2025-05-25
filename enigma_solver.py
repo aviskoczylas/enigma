@@ -25,12 +25,10 @@ displaySols = 1
 
 #specify starting piece number (shape), row, and column
 starting_pieces = [
-    [(flip_and_rotate(pieces[3])[7],1,0)],
-    [(flip_and_rotate(pieces[6])[3],3,1)],
-    [(flip_and_rotate(pieces[7])[3],3,4)],
-    #[(flip_and_rotate(pieces[8])[5],2,2)],
-    #[(flip_and_rotate(pieces[9])[1],3,2)],
-    [(flip_and_rotate(pieces[10])[1],2,3)],
+    [(flip_and_rotate(pieces[7])[2],3,0)],
+    [(flip_and_rotate(pieces[3])[5],3,2)],
+    [(flip_and_rotate(pieces[0])[5],3,5)],
+    [(flip_and_rotate(pieces[9])[4],3,7)],
 ]
 '''
 piece 0 = pink, piece 1 = red
@@ -44,8 +42,8 @@ piece 10 = brown
 #define board shape
 board_rows = 5
 board_cols = 10
- # "humanity", "missile", 
-keyword = 'metallic'
+ # "humanity", "missile","uninspired" 
+keyword = 'symbolic'
 
 lettergrid = [
 #    ['a', ' ', 'b', ' ', 'c', ' ', 'd', ' ', 'e', ' '],
