@@ -2,6 +2,7 @@
 Enigma Tips and Tricks
 ===================================
 
+This guide is most helpful after having done some easier puzzles already, and is meant mainly for with more difficult puzzles.
 Throughout this guide, we'll refer to this puzzle as an example, but these tips can really be applied to any puzzle!
 
 .. figure:: ../sample\ puzzles/board\ a/1/jump.png
@@ -43,7 +44,7 @@ Looking for constraints based on letters rather than geometry is crucial for puz
 Symmetry
 --------
 
-While 8 configurations is a lot, half of these can actually be eliinated immediately. The rules mention that **EACH PUZZLE HAS ONLY ONE POSSIBLE SOLUTION**. While this may just seem like a fun fact, it can actually be very useful in solving puzzles if you use it cleverly. In the cases above, notice that configurations 5 and 6 have the same shape, use the same pieces, and reveal the same letters. This means that no matter how the rest of the board is set up, these two configurations are interchangeable, so a puzzle with one of these configurations as a solution cannot have only one solution! Since the puzzle only has one solution, these configurations need not be considered. The same logic applies to configurations 7 and 8, leaving us with only 1, 2, 3, and 4. This reveals an important conclusion: the zigzag piece must be in one of the two spots above!
+While 8 configurations is a lot, half of these can actually be eliminated immediately. The rules mention that **EACH PUZZLE HAS ONLY ONE POSSIBLE SOLUTION**. While this may just seem like a fun fact, it can actually be very useful in solving puzzles if you use it cleverly. In the cases above, notice that configurations 5 and 6 have the same shape, use the same pieces, and reveal the same letters. This means that no matter how the rest of the board is set up, these two configurations are interchangeable, so a puzzle with one of these configurations as a solution cannot have only one solution! Since the puzzle only has one solution, these configurations need not be considered. The same logic applies to configurations 7 and 8, leaving us with only 1, 2, 3, and 4. This reveals an important conclusion: the zigzag piece must be in one of the two spots above!
 
 I like to call this method of elimination symmetry, since it occurs where there is a line of symmetry along the configuration. Some other examples of configurations that can be eliminated via symmetry are shown below. 
 
@@ -54,7 +55,7 @@ I like to call this method of elimination symmetry, since it occurs where there 
 .. |p2| image:: images/sym2.png
     :width: 45%
 
-Importantly, the piece's holes must be symmetrical as well: just like the shape itself, the revealed letters (or lack thereof) must be mirrored across the line of symmetry or else the configurations are not interchangeable (this is an oversimplification - the strategy can still work in cases where this is not true, but it will always work when it is true). Below is an example of the shape having a lineof symmetry, but we can see that this won't work when mirrored.
+Importantly, the piece's holes must be symmetrical as well: just like the shape itself, the revealed letters (or lack thereof) must be mirrored across the line of symmetry or else the configurations are not interchangeable (this is an oversimplification - the strategy can still work in cases where this is not true, but it will always work when it is true). Below is an example of the shape having a line of symmetry, but we can see that this won't work when mirrored.
 
 |p3| |p4|
 
@@ -70,7 +71,7 @@ Symmetry can also be used to eliminate confiugrations based on the leftover spac
 ..  figure:: images/blank_sym.png
     :align: center
 
-A symmetry argument cannot be made based on the pieces, since the holes are not symmetrical anda starter piece is involved. However, the blank space left on the board is symmetrical horizontally, as are the remaining keyword letters j, u, and m. This means that for ay configuration that could solve the puzzle, that same configuration could be flipped upside dowm and also be a solution. Since the puzzle only has one solution, no such configuration can exist, so the current setup can be eliminated.
+A symmetry argument cannot be made based on the pieces, since the holes are not symmetrical and a starter piece is involved. However, the blank space left on the board is symmetrical horizontally, as are the remaining keyword letters j, u, and m. This means that for any configuration that could solve the puzzle, that same configuration could be flipped upside down and also be a solution. Since the puzzle only has one solution, no such configuration can exist, so the current setup can be eliminated.
 
 These aren't the only ways that you can use the "only one solution" rule to your advantage, so don't be afraid to get creative! Using it is never necessary, but can save you a lot of effort (and make you feel smart)!
 
@@ -94,7 +95,7 @@ Let's assume these configurations are shown to not work (hint - they don't). **W
 Flippable pieces
 ----------------
 
-There are 3 pieces that can maintain the same shape on the board while changing what holes they cover. In some cases they can even "choose" whether or not to cover a letter at all. On board A specifically, only the zigzag piece can do this, as shown below. Can you figure out what the others are, and why they won't work on board A? This property can be a very powerful tool, so make sure to take full advantage of this flexibility!
+There are 3 pieces that can maintain the same shape on the board while changing what holes they cover. In some cases they can even "choose" whether or not to cover a letter at all. On board A specifically, only the zigzag piece can do this, as shown below. This property can be a very powerful tool, so make sure to take full advantage of this flexibility!
 
 |z1| |z2|
 
