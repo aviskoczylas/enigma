@@ -7,7 +7,7 @@ It also has a solver for any given keyword, piece shapes, starter pieces, and le
 
 Finally, it also includes an explanation of some common tips and tricks. They are mostly useful for the very difficult puzzles, so if you are looking to try those I highly recommend reading it first.
 
-If you are interested in making a puzzle board for your own use, 3d models to print the puzzle board and pieces can be found at (placeholder)
+If you are interested in making a puzzle board for your own use, 3d models to print the puzzle board and pieces can be found in the dedicated folder right now. They will soon be uploaded to a dedicated stl sharing website.
 
 This project was inspired by the Smartgames IQ series (which you should definitely check out if you liked this!). However, it is an independent creation and is not affiliated with the IQ brand or Smartgames in any way.
 
