@@ -15,7 +15,7 @@ def flip_and_rotate(piece):
     return orientations
 
 # load pieces from a file. they can be rotated and flipped
-with open('C:/Users/abrah/OneDrive/Desktop/code/miscellaneous python/iq game code/enigma/enigma_pieces.pkl', 'rb') as file:
+with open('C:/Users/abrah/OneDrive/Desktop/code/miscellaneous python/puzzle code/enigma/enigma_pieces.pkl', 'rb') as file:
     pieces = pickle.load(file)
 
 #specify whether you want to see all possible solutions or just one
@@ -44,7 +44,6 @@ piece 10 = brown
 #define board shape
 board_rows = 5
 board_cols = 10
- # "humanity", "missile","uninspired", "genetic"
 keyword = 'photo'
 
 lettergrid = [
@@ -73,16 +72,9 @@ class AllSolutions(cp_model.CpSolverSolutionCallback):
 
     def on_solution_callback(self):
         self.num_sols += 1
-        if displaySols == True:# and self.num_sols > 15: 
+        if displaySols == True:
             create_sol_grid(self.placements, self.vars, self)
-    '''
-        self.current_sol = create_sol_grid(self.placements, self.vars, self)
-        if not np.array_equal(self.last_sol, self.current_sol):
-            self.num_sols += 1
-            if displaySols:
-                plot_grid(self.current_sol)
-        self.last_sol = self.current_sol
-    '''
+
     def get_num_sols(self):
         return self.num_sols
 
@@ -128,7 +120,7 @@ def letter_frequency(keyword):
     return freq
 
 #Function that loops through all boolean variables, returning a dictionary linking each letter on the grid 
-# with the variables that, if true, would result in that spot being covered. If a single variable uncovers a letter 
+# with the variables that, if true, would result in that letteer being revealed. If a single variable uncovers a letter 
 #multiple times, it will appear multiple times in the list.
 def letter_coverage(placements_list, vars_list):
     letters = {}
@@ -178,8 +170,6 @@ def plot_grid(solution_grid):
     plt.gca().tick_params(left=False, bottom=False, labelleft=False, labelbottom=False)
     plt.show()
 
-
-        
 #first, ensure the grid makes sense for the keyword
 keyword_freq = letter_frequency(keyword)
 grid_freq = letter_frequency(''.join([l for row in lettergrid for l in row if l != ' ']))

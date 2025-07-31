@@ -27,5 +27,5 @@ np.array([[1.02, 0, 0],
 np.array([[1, 1, 0],
        [0, 1.02, 1]])
 ]
-with open('C:/Users/abrah/OneDrive/Desktop/code/miscellaneous python/iq game code/enigma/enigma_pieces.pkl', 'wb') as f:
+with open('C:/Users/abrah/OneDrive/Desktop/code/miscellaneous python/puzzle code/enigma/enigma_pieces.pkl', 'wb') as f:
     pickle.dump(pieces, f)
