@@ -212,18 +212,18 @@ for i, piece_list in enumerate(placements_list):
 
 #exactly one boolean variable can (and must) be true for each piece. Therefore, the sum of all boolean variables for each piece must be 1.
 for piece_vars in vars_list:
-    Model.add(sum(piece_vars)==1)
+    Model.Add(sum(piece_vars)==1)
 
 #using the grid coverage, enforce that the sum of all boolean variables for each grid location must be 1
 coverage = grid_coverage(placements_list, vars_list)
 for location in coverage:
-    Model.add(sum(coverage[location])==1)
+    Model.Add(sum(coverage[location])==1)
 
 #the revealed letters must make up the keyword!
 freq = letter_frequency(keyword)
 letters = letter_coverage(placements_list, vars_list)
 for letter in letters:
-    Model.add(sum(letters[letter])==freq[letter])
+    Model.Add(sum(letters[letter])==freq[letter])
 
 # Solve the model
 solver = cp_model.CpSolver()
