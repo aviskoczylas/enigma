@@ -8,8 +8,11 @@ It also has a solver for any given keyword, piece shapes, starter pieces, and le
 Finally, it also includes an explanation of some common tips and tricks. They are mostly useful for the very difficult puzzles, so if you are looking to try those I highly recommend reading it first.
 
 If you are interested in making a puzzle for your own use, 3d models of the enigma board and pieces can be found in the following locations:
+
 https://makerworld.com/en/@user_2042744397/upload
+
 https://cults3d.com/en/users/Umich3dPrintingClub/3d-models
+
 https://www.thingiverse.com/Umich3DPClub/designs
 
 This project was inspired by the Smartgames IQ series (which you should definitely check out if you liked this!). However, it is an independent creation and is not affiliated with the IQ brand or Smartgames in any way.
