@@ -15,7 +15,7 @@ def flip_and_rotate(piece):
     return orientations
 
 # load pieces from a file. they can be rotated and flipped
-with open('C:/Users/abrah/OneDrive/Desktop/code/miscellaneous python/puzzle code/enigma/enigma_pieces.pkl', 'rb') as file:
+with open('enigma_pieces.pkl', 'rb') as file:
     pieces = pickle.load(file)
 
 #specify whether you want to see all possible solutions or just one
@@ -239,4 +239,5 @@ if solution in (cp_model.OPTIMAL, cp_model.FEASIBLE):
     else:
         create_sol_grid(placements_list, vars_list, solver)
 else:
+
     print("No solution found.")
